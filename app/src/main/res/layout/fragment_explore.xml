@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:text="Air Quality Statistics"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/air" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="The gaseous products of burning materials especially of organic origin made visible by the presence of small particles of carbon. \nb : a suspension of particles in a gas. \n2a : a mass or column of smoke. \nb : smudge. \n3 : fume or vapor often resulting from the action of heat on moisture."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Proof of Work"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/o3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Ozone is a secondary air pollutant that often plagues cities on hot summer days. It is formed by sunlight-driven reactions between volatile organic compounds (VOCs) and nitrogen oxides (NOx), which are emitted from consumer products, industry, and vehicle tailpipes. Fires can also eject massive quantities of gasses into the atmosphere, giving off a cocktail of chemical emissions that can produce ozone downwind.\nOzone is also an important global greenhouse gas, third in line behind carbon dioxide and methane. With an atmospheric lifetime of up to several weeks, it can be transported over long distances to the most remote parts of the atmosphere.\nThreshold Concentration : 80\nThe Graph Shows Higher Deviation then threshold. "
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/ch3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Chloromethane(CH3Cl or methyl chloride) is a trace
+gas in the atmosphere that is a characteristic
+emission of vegetative biomass burning.\n
+Measurements
+of chloromethane emissions from laboratory-scale
+fires in forest fuels show that CHCl emission factors
+vary considerably between flaming and smoldering
+combustion.\n Regression analysis indicates that CHJ-
+Cl emission factors can be predicted from three fire
+and fuel parameters: combustion efficiency, rate of
+heat release, and fuel chloride content. The
+percentage of chlorine in the fine particle emissions
+from burning forest fuels also varies with combustion
+conditions.\nA combustion reaction mechanism is
+proposed to explain the observed variation in
+chlorinated emissions."
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/ch4" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Our study found that mean methane EFs ranged from 3.83 g kg−1 in the EDS to 3.18 g kg−1 in the MDS, but the small sample did not provide enough power for this effect to be significant. We found head fires had nearly double the CH4 EF of backfires (5.12 g kg−1 to 2.74), a significant difference. Byram's fire intensity was a significant driver of CH4 EF but with weak effect. Methane emission density increased marginally from 0.839 g m−2 in the EDS to 0.875 g m−2 in the MDS, a difference that was not significant. Head fires, however, had much higher emission densities than backfires – 1.203 vs. 0.708 g m−2 – respectively, a significant difference."
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
